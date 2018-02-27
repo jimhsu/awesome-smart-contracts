@@ -40,6 +40,8 @@ Share your knowledge. [Contributing guide](CONTRIBUTING.md)
 |----------------------------------------|:-----------------------------------------------------------:|------:|------:|------------:|------:|----------|
 |[Bitcoin](https://docs.ivy-lang.org)   |  Ivy-lang                                                   | Yes   | USA     | USA       |2017.12|2017.12   |
 | [BitShares](https://bitshares.org/)    |  ?                                                          | Yes   |    
+|[Bismuth](http://bismuth.cz/)           |  Python                                                     | Yes   | Czech Republic
+|[Byteball](https://byteball.org/)       |  Byteball definitional (JSON)                               | Yes   | Russia
 |[Cardano](https://cardanofoundation.org)|  Plutus (Haskell inspired)                                  | no    |HK       |Switzerland|2015   |
 | Counterparty                           |  ?                                                          | Yes   |    
 |[Corda](https://www.corda.net/)         |
@@ -183,6 +185,27 @@ Docs:
 Contract examples:
   * https://exonum.com/doc/get-started/create-service/
   
+## Byteball
+
+Byteball is a smart contract platform that uses a Directed Acyclic Graph (DAG) to store data. It supports conditional payments, where payments are bound to whether or not certain events happen, peer-to-peer insurance contracts, prediction markets with decentralized oracles, identity and attestation, and funding for initial coin offerings (ICO). Smart contracts on the Byteball platform are interacted with through chatbots, which can be built by developers to extend functionality. In addition, Byteball supports decentralized, anonymous value transfer through private assets such as Blackbytes, where the transaction data is not recorded on any public ledger.
+
+Docs:
+  * https://byteball.org/Byteball.pdf
+  * https://github.com/byteball/byteball
+  
+Contract examples:
+  * https://github.com/byteball/btc-oracle
+
+## Bismuth
+
+Bismuth is the first smart contract platform written in Python. It is mineable (SHA224), and uses ordinary Python code to provide a set of decentralized applications (dApps) such as mining pools, a block explorer, and a decentralized casino. Applications can easily be extended on the platform's modular Python codebase.
+
+Docs:
+  * http://bismuth.cz/doc/
+  * https://github.com/hclivess/Bismuth
+  
+Contract examples:
+  * https://github.com/hclivess/Bismuth/blob/master/zircodice_dappie.py
   
 ## BitShares
 
